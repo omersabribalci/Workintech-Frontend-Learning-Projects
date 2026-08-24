@@ -1,0 +1,201 @@
+:root {
+  --bg-color: #f0f2f5;
+  --card-bg: #ffffff;
+  --item-bg: #f8fafc;
+  --primary: #4f46e5;
+  --text-dark: #1e293b;
+  --text-muted: #64748b;
+  --danger: #ef4444;
+  --success: #10b981;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 60px;
+  color: var(--text-dark);
+}
+
+#root {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Ana Kapsayıcı */
+.wrapper {
+  background: var(--card-bg);
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
+  box-shadow:
+    0 10px 25px -5px rgba(0, 0, 0, 0.05),
+    0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Input Alanı */
+.input-area {
+  display: flex;
+  gap: 8px;
+}
+
+#list-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #ffffff;
+  color: #1e293b;
+  transition: all 0.2s;
+}
+
+#list-input::placeholder {
+  color: #94a3b8;
+}
+
+#list-input:focus {
+  border-color: var(--primary);
+  background-color: #fff;
+}
+
+.btn-add {
+  padding: 0 20px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-add:hover {
+  opacity: 0.9;
+}
+
+/* Liste */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  background: var(--item-bg);
+  border: 1px solid #f1f5f9;
+  border-radius: 16px;
+  padding: 14px 18px;
+  transition: transform 0.1s;
+}
+
+.list-item:hover {
+  transform: scale(1.01);
+}
+
+li {
+  flex: 1;
+  margin: 0 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e293b;
+  text-align: left;
+}
+
+.list-item li[style*="line-through"] {
+  color: #94a3b8 !important;
+}
+
+/* Checkbox */
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  background: white;
+}
+
+.checkbox:checked {
+  background-color: var(--success);
+  border-color: var(--success);
+}
+
+.checkbox:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Silme Butonu */
+.btn-delete {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.btn-delete:hover {
+  color: var(--danger);
+  background: #fee2e2;
+}
+
+.btns-filter {
+  display: flex;
+  gap: 8px;
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+.btns-filter button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f1f5f9;
+  color: #64748b;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btns-filter button.active {
+  background-color: #4f46e5 !important;
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.btns-filter button:hover:not(.active) {
+  background-color: #e2e8f0;
+}
