@@ -1,0 +1,65 @@
+import {
+  ADD_EVENT,
+  CLOSE_DELETE_MODAL,
+  CREATE_CATEGORIES,
+  DELETE_EVENT,
+  FETCH_ERROR,
+  FETCH_START,
+  FETCH_SUCCESS,
+  OPEN_DELETE_MODAL,
+  SET_CATEGORY,
+  SET_SEARCH_TERM,
+} from "../actions/actions";
+
+export const initialState = {
+  events: [],
+  isLoading: false,
+  error: false,
+  searchTerm: "",
+  categories: [],
+  selectedCategory: "All",
+  isDeleteModalOpen: false,
+  selectedEvent: {},
+};
+
+export const reducer = (state, action) => {
+  switch (action.type) {
+    case FETCH_START:
+      return { ...state, isLoading: true };
+    case FETCH_SUCCESS:
+      return {
+        ...state,
+        events: [...state.events, ...action.payload],
+        isLoading: false,
+      };
+    case FETCH_ERROR:
+      return { ...state, isLoading: false, error: true };
+    case CREATE_CATEGORIES:
+      return { ...state, categories: [...state.categories, ...action.payload] };
+    case SET_CATEGORY:
+      return { ...state, selectedCategory: action.payload };
+    case SET_SEARCH_TERM:
+      return { ...state, searchTerm: action.payload };
+    case ADD_EVENT:
+      return { ...state, events: [action.payload, ...state.events] };
+    case DELETE_EVENT:
+      return {
+        ...state,
+        events: state.events.filter((event) => event.id !== action.payload),
+      };
+    case OPEN_DELETE_MODAL:
+      return {
+        ...state,
+        isDeleteModalOpen: true,
+        selectedEvent: { ...state.selectedEvent, ...action.payload },
+      };
+    case CLOSE_DELETE_MODAL:
+      return {
+        ...state,
+        isDeleteModalOpen: false,
+        selectedEvent: {},
+      };
+    default:
+      return state;
+  }
+};
