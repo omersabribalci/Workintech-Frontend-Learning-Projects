@@ -1,0 +1,114 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 9,
+  "numPassedTests": 9,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1776518674333,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxe QueryClientProvider eklenmiş",
+          "status": "passed",
+          "title": "App.jsxe QueryClientProvider eklenmiş",
+          "duration": 28,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " SideBar componentinde useEffect kaldırılmış",
+          "status": "passed",
+          "title": "SideBar componentinde useEffect kaldırılmış",
+          "duration": 5,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Contact componentinde useEffect kaldırılmış",
+          "status": "passed",
+          "title": "Contact componentinde useEffect kaldırılmış",
+          "duration": 13,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Contactlar listeleniyor",
+          "status": "passed",
+          "title": "Contactlar listeleniyor",
+          "duration": 13,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " New Butonu Çalışıyor",
+          "status": "passed",
+          "title": "New Butonu Çalışıyor",
+          "duration": 101,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni kullanıcı kayıt ediliyor",
+          "status": "passed",
+          "title": "Yeni kullanıcı kayıt ediliyor",
+          "duration": 1458,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Home Butonu Çalışıyor",
+          "status": "passed",
+          "title": "Home Butonu Çalışıyor",
+          "duration": 131,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kullanıcı detaylarını gösteriyor",
+          "status": "passed",
+          "title": "Kullanıcı detaylarını gösteriyor",
+          "duration": 100,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kullanıcıyı siliyor",
+          "status": "passed",
+          "title": "Kullanıcıyı siliyor",
+          "duration": 222,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1776522555600,
+      "endTime": 1776522557673,
+      "status": "passed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-8hrylz/src/__tests__/index.test.jsx"
+    }
+  ]
+}
