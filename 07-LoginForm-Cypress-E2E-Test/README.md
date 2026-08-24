@@ -1,21 +1,21 @@
-# CaTinder
+# LoginForm Cypress E2E
 
-> A Tinder-like UI for cats.
+> Login form with End-to-End testing using Cypress.
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-success) 
-![Tech Stack](https://img.shields.io/badge/Tech-React-blue)
+![Tech Stack](https://img.shields.io/badge/Tech-React%20|%20Cypress-blue)
 
 ## Features
 
-- Swipeable UI components.
-- Dynamic state handling.
-- Responsive design.
+- Form validation.
+- End-to-end automated testing.
+- Simulated login flow.
 
 ## Technologies Used
 
 - **React**
+- **Cypress**
 - **JavaScript**
-- **CSS**
 
 ## Getting Started
 
@@ -24,7 +24,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 ### Installation & Execution
 1. Clone the repository or download the project files.
-2. Navigate to the `04-CaTinder` folder.
+2. Navigate to the `07-LoginForm-Cypress-E2E-Test` folder.
 3. Install dependencies:
    ```bash
    npm install

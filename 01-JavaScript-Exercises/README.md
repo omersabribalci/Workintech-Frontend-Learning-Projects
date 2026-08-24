@@ -1,47 +1,37 @@
-## JavaScript Tekrar
+# JavaScript Exercises
 
-## Amaçlar
+> Basic JavaScript logic and algorithmic challenges.
 
-- JavasScipt'te öğrendiklerimizi kullanmak
+![Project Status](https://img.shields.io/badge/Status-Completed-success) 
+![Tech Stack](https://img.shields.io/badge/Tech-Vanilla%20JS-blue)
 
-## Giriş
+## Features
 
-Artık çalıştığınız iş yerinde tecrübeli bir çalışan oldunuz. Sizden yeni gelen stajyerlere destek olmanız isteniyor.
-Siz de çalıştığınız farklı projelerdeki bazı ufak görevlerden hazırladığınız bir projeyi, yeni stajyer arkadaşınızla beraber yaptığınızı hayal edin.
+- Algorithmic problem solving.
+- DOM Manipulation (if applicable).
+- Core JavaScript fundamentals.
 
-### Commits
+## Technologies Used
 
-Görevleri yaptıkça commit etmeyi unutmayınız.
+- **HTML5**
+- **JavaScript (ES6+)**
 
-## Talimatlar
+## Getting Started
 
-### Görev 1: Proje Kurulumu
+### Prerequisites
+You only need a modern web browser to run this project.
 
-VSCode ve Komut Satırını Kullanma:
+### Installation & Execution
+1. Clone the repository or download the project files.
+2. Navigate to the `01-JavaScript-Exercises` folder.
+3. Open the main HTML file directly in your browser.
+   - *Tip:* If you use VS Code, you can use the **Live Server** extension for a better development experience.
 
-1. Bu repo'yu fork'layın
-2. Frok'ladığınız repo'yu bilgisayarınızda clone'layın
-3. LÜTFEN BRANCH OLUŞTURMAYINIZ! Bu projede main branch'ine push'layacaksın
-4. Projenizi VS Code ile açın. Terminaldeki dizinin içeriği `ls` komutu ile kontrol edebilirsiniz. `package.json` olan dizinde olmalıyız.
-5. VS Code'da terminali açın ve `npm install` yazın ve çalıştırın
+## Usage
 
-### Görev 2: Geliştirme Ortamı Çalıştırma
+- Explore the application to see the implemented features.
+- Review the source code to understand the underlying logic.
 
-#### Test Etme Yapma
+---
 
-1. Sonra `npm run test` yazın ve çalıştırın
-2. Projenizi tamamladıktan sonra `push` yaparak githuba aktarın
-
-#### Debug Yapma / Hata Ayıklama
-
-1. Projenizin içinde "split terminal"i tıklayarak ikinci bir terminal ekranı açın.
-
-2. Açılan ikinci terminalde `npm start` yazıp çalıştırın.
-
-Bir terminal ekranında testleri çalıştırırken bir diğerinde ise debug yapabileceksin. Kodlarınızda güncelleme yaptıkça ilerlemeyi kontrol için `console.log`u kullanın.
-
-### Görev 3: Soruların Çözümü
-
-1. Proje ana dizininde `.gitignore` dosyası oluşturup, içine "node_modules" yazıp, kaydedin.
-2. Oluşturduğunuz bu değişikliği, uygun bir mesaj ile commitleyin.
-3. `index.js` dosyasını bulun ve verilen görevleri sırayla tamamlayın. Her görevden sonra bir commit atıp, en son da, `push`layın.
+*This project was created for front-end development practice.*

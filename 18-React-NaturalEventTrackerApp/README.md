@@ -1,16 +1,45 @@
-# React + Vite
+# Natural Event Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Tracking natural events via external APIs.
 
-Currently, two official plugins are available:
+![Project Status](https://img.shields.io/badge/Status-Completed-success) 
+![Tech Stack](https://img.shields.io/badge/Tech-React-blue)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Fetching real-time event data.
+- Map/List visualization.
+- Filtering events.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- **React**
+- **External APIs**
+- **JavaScript**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation & Execution
+1. Clone the repository or download the project files.
+2. Navigate to the `18-React-NaturalEventTrackerApp` folder.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   # or npm run dev (if using Vite)
+   ```
+
+## Usage
+
+- Explore the application to see the implemented features.
+- Review the source code to understand the underlying logic.
+
+---
+
+*This project was created for front-end development practice.*
