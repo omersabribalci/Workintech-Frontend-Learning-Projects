@@ -1,0 +1,230 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 20,
+  "numPassedTests": 19,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1776899902824,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe CartContext.Provider oluşturulmuş",
+          "status": "passed",
+          "title": "contexts klasöründe CartContext.Provider oluşturulmuş",
+          "duration": 24,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "duration": 4,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "status": "passed",
+          "title": "contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe ProductContext.jsx dosyası oluşturulmuş",
+          "status": "passed",
+          "title": "contexts klasöründe ProductContext.jsx dosyası oluşturulmuş",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "status": "passed",
+          "title": "CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "status": "passed",
+          "title": "contexts klasöründe CartContext Providera valuelar aktarılmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde oluşturulan her 2 provider da kullanılmış",
+          "status": "passed",
+          "title": "App.jsxde oluşturulan her 2 provider da kullanılmış",
+          "duration": 3,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde useStateler (import ve tanımlamalar) silinmiş",
+          "status": "passed",
+          "title": "App.jsxde useStateler (import ve tanımlamalar) silinmiş",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde Products componentine gönderilen proplar (products, addItem) silinmiş",
+          "status": "passed",
+          "title": "App.jsxde Products componentine gönderilen proplar (products, addItem) silinmiş",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde Navigation componentine gönderilen prop (cart) silinmiş",
+          "status": "passed",
+          "title": "App.jsxde Navigation componentine gönderilen prop (cart) silinmiş",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxde ShoppingCart componentine gönderilen prop (cart) silinmiş",
+          "status": "passed",
+          "title": "App.jsxde ShoppingCart componentine gönderilen prop (cart) silinmiş",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " contextAPI eklendikten sonra ana sayfa 4 kitabı da geririyor.",
+          "status": "passed",
+          "title": "contextAPI eklendikten sonra ana sayfa 4 kitabı da geririyor.",
+          "duration": 8,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " İlk kitapta Add to cart butonuna tıklanınca sağ üst cartta 1 yazıyor",
+          "status": "passed",
+          "title": "İlk kitapta Add to cart butonuna tıklanınca sağ üst cartta 1 yazıyor",
+          "duration": 92,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " İkinci kitapta Add to cart butonuna tıklanınca sağ üst cartta 2 yazıyor",
+          "status": "passed",
+          "title": "İkinci kitapta Add to cart butonuna tıklanınca sağ üst cartta 2 yazıyor",
+          "duration": 55,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " İlk kitapta Add to cart butonuna tıklanınca sepete ekliyor",
+          "status": "passed",
+          "title": "İlk kitapta Add to cart butonuna tıklanınca sepete ekliyor",
+          "duration": 88,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Cart sayfasında Remove from cart kitabı sepetten çıkarıyor",
+          "status": "failed",
+          "title": "Cart sayfasında Remove from cart kitabı sepetten çıkarıyor",
+          "duration": 1116,
+          "failureMessages": [
+            "Unable to find an element with the text: The Art Of War. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m1\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dmyCSP ieWzNc\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Civilization and Its Discontents book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hLQSwg eEKNXm\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h2>\u001b[39m\n                \u001b[0mCivilization and Its Discontents\u001b[0m\n              \u001b[36m</h2>\u001b[39m\n              \u001b[36m<p>\u001b[39m\n                \u001b[0m$ \u001b[0m\n                \u001b[0m14.29\u001b[0m\n              \u001b[36m</p>\u001b[39m\n              \u001b[36m<button>\u001b[39m\n                \u001b[0mRemove from cart\u001b[0m\n              \u001b[36m</button>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eDLKkx kvXUPP\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<p>\u001b[39m\n              \u001b[0mTotal: $\u001b[0m\n              \u001b[0m14.29\u001b[0m\n            \u001b[36m</p>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mCheckout\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"App\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<nav\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"sc-beySPh jzJsOY\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<nav\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mProducts\u001b[0m\n          \u001b[36m</a>\u001b[39m\n          \u001b[36m<a\u001b[39m\n            \u001b[33maria-current\u001b[39m=\u001b[32m\"page\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"active\"\u001b[39m\n            \u001b[33mhref\u001b[39m=\u001b[32m\"/cart\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mCart \u001b[0m\n            \u001b[36m<span>\u001b[39m\n              \u001b[0m1\u001b[0m\n            \u001b[36m</span>\u001b[39m\n          \u001b[36m</a>\u001b[39m\n        \u001b[36m</nav>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n      \u001b[36m<main\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"content\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-dmyCSP ieWzNc\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<img\u001b[39m\n              \u001b[33malt\u001b[39m=\u001b[32m\"Civilization and Its Discontents book\"\u001b[39m\n              \u001b[33msrc\u001b[39m=\u001b[32m\"https://images-na.ssl-images-amazon.com/images/I/51Jj12iMZnL._SX331_BO1,204,203,200_.jpg\"\u001b[39m\n            \u001b[36m/>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"sc-hLQSwg eEKNXm\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<h2>\u001b[39m\n                \u001b[0mCivilization and Its Discontents\u001b[0m\n              \u001b[36m</h2>\u001b[39m\n              \u001b[36m<p>\u001b[39m\n                \u001b[0m$ \u001b[0m\n                \u001b[0m14.29\u001b[0m\n              \u001b[36m</p>\u001b[39m\n              \u001b[36m<button>\u001b[39m\n                \u001b[0mRemove from cart\u001b[0m\n              \u001b[36m</button>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n          \u001b[36m<div\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"sc-eDLKkx kvXUPP\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<p>\u001b[39m\n              \u001b[0mTotal: $\u001b[0m\n              \u001b[0m14.29\u001b[0m\n            \u001b[36m</p>\u001b[39m\n            \u001b[36m<button>\u001b[39m\n              \u001b[0mCheckout\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</div>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</main>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Cart bilgisi localStoragea s11g1 keyi ile saklanıyor",
+          "status": "passed",
+          "title": "Cart bilgisi localStoragea s11g1 keyi ile saklanıyor",
+          "duration": 2,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Cart bilgisi localStorageda güncelleniyor",
+          "status": "passed",
+          "title": "Cart bilgisi localStorageda güncelleniyor",
+          "duration": 140,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1776899903876,
+      "endTime": 1776899905434,
+      "status": "failed",
+      "message": "",
+      "name": "C:/Users/omers/Desktop/Workintech/Sprint11/Proje1/src/__tests__/index.test.jsx"
+    }
+  ]
+}
