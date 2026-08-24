@@ -1,2 +1,2 @@
-# Workintech-Frontend-Learning-Projects
-Workintech-Frontend-Learning-Projects
+# Frontend-Learning-Projects
+Frontend-Learning-Projects
